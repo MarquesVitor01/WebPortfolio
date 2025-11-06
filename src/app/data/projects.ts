@@ -47,7 +47,7 @@ export const allProjects = [
     date: "2025-06-18",
     description:
       "Site para uma Identidade Fisica aliado a uma marca Vegana. Interface leve e adaptada para acessibilidade.",
-    image: "/pys.png",
+    image: "/psys.png",
     technologies: ["Next", "TypeScript", "TailWind"],
     url: "https://github.com/MarquesVitor01/Psy", 
   },

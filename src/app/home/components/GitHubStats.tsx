@@ -69,7 +69,7 @@ export default function GitHubStats({
       <div className="flex flex-col items-center max-w-5xl mx-auto">
         <h3 className="text-lg font-semibold mb-4">Linguagens Mais Usadas</h3>
 
-        <div className="w-full max-w-xs h-[250px] flex items-center justify-center">
+        <div className="w-full max-w-xs h-[250px] flex items-center justify-center ">
           {loading ? (
             <div className="w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin" />
           ) : (
@@ -110,7 +110,7 @@ export default function GitHubStats({
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="text-white hover:text-gray-300 transition text-3xl pt-5"
+          className="text-white hover:text-gray-300 transition text-3xl pt-10"
         >
           <FaGithub />
         </a>
